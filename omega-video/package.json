@@ -1,0 +1,21 @@
+{
+  "name": "omega-video",
+  "version": "1.0.0",
+  "description": "Animation video for o-mega.ai",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render Root OmegaVideo out/video.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.407",
+    "remotion": "^4.0.407",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/web": "^0.0.175",
+    "typescript": "^5.7.3"
+  }
+}
