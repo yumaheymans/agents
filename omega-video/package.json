@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Animation video for o-mega.ai",
   "scripts": {
-    "start": "remotion studio",
-    "build": "remotion render Root OmegaVideo out/video.mp4",
+    "start": "remotion studio src/Root.tsx",
+    "build": "remotion render src/Root.tsx OmegaVideo out/video.mp4",
     "upgrade": "remotion upgrade"
   },
   "dependencies": {
