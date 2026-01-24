@@ -1,3 +1,11 @@
 .env
 __pycache__/
 *.pyc
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Remotion
+out/
+.remotion/
